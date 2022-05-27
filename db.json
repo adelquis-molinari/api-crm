@@ -1,22 +1,20 @@
 {
   "clientes": [
     {
-      "id": 1,
-      "nombre": "Juan",
-      "apellido": "Perez",
-      "dni": "12345678",
-      "direccion": "Av. Siempreviva 123",
-      "telefono": "12345678",
-      "email": "no@no.com"
+      "nombre": "Pedro Moro ",
+      "empresa": "Evuca",
+      "email": "Pero@evuca.com",
+      "telefono": "3471554841",
+      "notas": "Proyecto evuca",
+      "id": 1
     },
     {
-      "id": 2,
-      "nombre": "Pedro",
-      "apellido": "Perez",
-      "dni": "12345678",
-      "direccion": "Av. Siempreviva 123",
-      "telefono": "12345678",
-      "email": "no2@no.com"
+      "nombre": "Santigo Solis",
+      "empresa": "Lima Nueva",
+      "email": "Santigo@limaNueva.com",
+      "telefono": "3415524781",
+      "notas": "Creación de marca personal",
+      "id": 2
     }
   ]
 }
