@@ -19,7 +19,7 @@ Ejecuta el comando en la raíz
 
 Pro último crear un .env con la variable:
 
-VITE_API_URL= http://localhost:4000/clientes/
+VITE_API_URL = ~~~ http://localhost:4000/clientes/ ~~~
 
 Para correr la app 
 
