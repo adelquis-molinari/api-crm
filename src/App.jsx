@@ -4,14 +4,16 @@ import Inicio from './paginas/Inicio'
 import NuevoCliente from './paginas/NuevoCliente'
 import EditarCliente from './paginas/EditarCliente'
 import VerCliente from './paginas/VerCliente'
+import PagInicio from './paginas/PagInicio'
 
 function App() {
 
   return (
       <BrowserRouter>
           <Routes>
+              <Route index path="/" element={<PagInicio />} />
               <Route path="/clientes" element={<Layout />}>
-                  <Route index element={<Inicio />} />
+                  <Route  element={<Inicio />} />
                   <Route path="nuevo" element={<NuevoCliente />} />
                   <Route path="editar/:id" element={<EditarCliente />} />
                   <Route path=":id" element={<VerCliente />} />
