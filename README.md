@@ -4,8 +4,6 @@ Implementando Json Sever para traer los datos para generar nuevos registros, act
 
 ## MODO PARA LEVANTAR EL PROYECTO
 
-Realizar un:
-
     npm install 
 
 De manera global debe de tener instalado **Json Sever** si no visita npm busca Json Sever o ve al link de debajo y sigue los pasos.
@@ -21,8 +19,6 @@ Pro último crear un .env con la variable:
 
     VITE_API_URL = http://localhost:4000/clientes/ 
 
-Para correr la app 
-
-npm run dev
+    npm run dev
 
 Todo listo y gracias por ver el proyecto 👋🏻
